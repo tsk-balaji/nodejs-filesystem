@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "node": "^22.5.1"
+    "node": "^22.5.1",
+    "nodemon": "^3.1.4"
+  }
+  "scripts": {
+    "start": "nodemon currentTimeStampFileCreation.js"
   }
 }
